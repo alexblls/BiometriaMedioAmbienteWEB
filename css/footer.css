@@ -1,0 +1,22 @@
+/* pie de pagina */
+#piePagina {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    bottom: 0%;
+    border-top: 1px solid black;
+    background-color: white;
+    justify-content: space-around;
+}
+
+#boxTextoPie {
+    padding: 10px;
+    text-align: center;
+}
+
+.textoPie {
+    margin: 0px;
+    padding: 0;
+    font-size: 10px;
+}
