@@ -1,0 +1,58 @@
+* {
+    margin: 0 0 0 0;
+    font-family: 'Roboto';
+}
+
+html {
+    height: 100vh;
+    background:
+        linear-gradient(110deg, #7AFFE5, rgba(255, 0, 0, 0)90%),
+        linear-gradient(70deg, #6992FF, rgba(0, 255, 0, 0)90%);
+}
+
+/* TITULOS */
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 5rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.circulo {
+    border-radius: 2rem 2rem 2rem 2rem;
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, 0);
+    background-color: green;
+}
+
+.centrarHijos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#datoPrincipal {
+    font-size: 5rem;
+    padding: .5rem 2rem .5rem 2rem;
+    color: white;
+}
